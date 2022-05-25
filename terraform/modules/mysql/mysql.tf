@@ -8,7 +8,7 @@ resource "azurerm_mysql_flexible_server" "main" {
   private_dns_zone_id     = var.private_dns_zone_id
   zone                    = "1"
   
-  sku_name   = "MO_Standard_E64ds_v4"
+  sku_name   = "MO_Standard_E64ds_v5"
   
   tags = {
     project = var.project
